@@ -1,7 +1,4 @@
 #Daniel Bevilacqua
-# Starter code for computing Nth Fibonacci term.
-# Put in comments your name and date please
-
 		  .data
 prompt1:  .asciiz "This is Daniel Bevilacqua's Fibonacci calculator.\n"
 prompt2:  .asciiz "Enter which Fibonacci term to calculate: "
