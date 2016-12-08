@@ -17,18 +17,18 @@ main:
         li      $v0, 5          # system call to read an integer (the users input)
         syscall
 
-# You should start filling in details here.  These parts of the program
-# are coded in the main funciton.
+# Steps:
 # 1. call the fibonacci function
 # 2. put the returned value into the appropriate return register ($v0)
 # 3. add the statements to print out the result in the main function
+
 	add $a0, $zero, $v0
 	jal fibonacci
 	
 	add $a0, $zero, $v0
 	li $v0, 1
 	syscall
-# system call to gracefully exit the program
+# system call to exit the program
         li $v0, 10
         syscall
 
